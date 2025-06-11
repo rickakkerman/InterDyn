@@ -24,11 +24,16 @@
 ```bash
 git clone https://github.com/rickakkerman/InterDyn.git
 ```
-2. Install dependencies (please refer to [requirements.txt](requirements.txt)):
+2. Create a conda environment:
+```bash
+conda create -n interdyn python=3.10 -y
+conda activate interdyn
+```
+3. Install dependencies (please refer to [requirements.txt](requirements.txt)):
 ```bash
 pip install -r requirements.txt
 ```
-3. Install FFMPEG:
+4. Install FFMPEG:
 ```bash
 conda install -c conda-forge ffmpeg -y
 ```
